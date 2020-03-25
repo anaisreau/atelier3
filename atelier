@@ -1,0 +1,14 @@
+const functionFlech = () => {
+console.log(`Hello ${firstName} welcome into the Wild`);
+}
+
+const firstName ="Anaïs"
+functionFlech()
+
+const fruits = ["Bananas", "Oranges", "Strawberries"];
+const vegetable = ["Cabbages", "Carotts"];
+
+
+const fruitsVegetable = [...fruits, ... vegetable];
+
+console.log(fruitsVegetable)
